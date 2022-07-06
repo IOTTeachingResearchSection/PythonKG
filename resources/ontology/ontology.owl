@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#"
+     xml:base="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#baseFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#baseFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#人工智能"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#其他应用"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数据库"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#文件"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#游戏"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#爬虫"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>A baseFor B表示 A是B的基础，即A是B的前驱</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#isBasedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:comment>A isBasedOn B表示 A需要基于B，即B是A的前驱</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python"/>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python的版本"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python的版本"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python开发工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python开发工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#环境搭建"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python的安装 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python的安装">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#环境搭建"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python的版本 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python的版本">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#环境搭建"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#人工智能 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#人工智能">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#其他应用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#其他应用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#函数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#函数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#变量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#变量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本数据类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本数据类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#字符串 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#字符串">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#序列 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#序列">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数据库 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数据库">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#文件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#文件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#标识符 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#标识符">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#注释 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#注释">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#流程控制语句 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#流程控制语句">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#游戏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#游戏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#爬虫 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#爬虫">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#环境搭建 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#环境搭建">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#第三方开发工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#第三方开发工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python开发工具"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#自带开发工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#自带开发工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#自带开发工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python开发工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#运算符 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#运算符">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#IDLE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#IDLE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#自带开发工具"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Microsoft_Visual_Studio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Microsoft_Visual_Studio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#第三方开发工具"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyCharm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyCharm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#第三方开发工具"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#VSCode -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#VSCode">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#第三方开发工具"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Visual_Studio_Code"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Visual_Studio_Code -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Visual_Studio_Code"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
