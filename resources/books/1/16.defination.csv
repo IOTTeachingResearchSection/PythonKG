@@ -1,0 +1,12 @@
+entity,defination
+Web框架,Web框架全称为Web应用框架(Web Application Framework)，用来支持动态网站、网络应用程序及网络服务的开发。
+Python常用的Web框架,Flask，Django，Bottle4，Tornado
+Flask,Flask是一款轻量级Web应用框架，它是基于Wcrkzeug实现的WSGI和Jmja2模板引擎。
+虚拟环境,-
+调试模式,-
+路由,客户端(例如浏览器)把请求发送给Web服务器，Web服务器再把请求发送给Flask程序实例。程序实例需要知道对每个URL请求运行哪些代码，所以保存了一个URL到Python函数的映射关系。像这种处理URL和函数之间关系的程序称为路由。
+静态文件,-
+Django,Django是基于Python的重量级开源Web框架。Django拥有高度定制的ORM和大量的API，简单灵活的视图编写，优雅的URL，适于快速开发的模板和强大的管理后台，这使得它在Python Web开发领域拥有着不可动摇的地位。
+数据模型,-
+表单,-
+视图,-
