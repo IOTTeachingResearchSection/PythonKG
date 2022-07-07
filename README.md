@@ -63,7 +63,7 @@ Grube提出的本体构建的5个指导原则：
 
 简化版步骤：
 
-![image-20220706142425925](/home/richard/snap/typora/57/.config/Typora/typora-user-images/image-20220706142425925.png)
+![image-20220706142425925](resources/images/image-20220706142425925.png)
 
 
 
@@ -142,7 +142,7 @@ https://github.com/IOTTeachingResearchSection/PythonKG
 
 https://github.com/orgs/IOTTeachingResearchSection/teams/team-1/members
 
-![image-20220706125656796](/home/richard/snap/typora/57/.config/Typora/typora-user-images/image-20220706125656796.png)
+![image-20220706125656796](resources/images/image-20220706125656796.png)
 
 需要大家提供github的邮箱或账户才能邀请加入团队。
 
@@ -166,14 +166,14 @@ https://github.com/orgs/IOTTeachingResearchSection/teams/team-1/members
 
 【方式四】激活后效果：
 
-![image-20220706130927611](/home/richard/snap/typora/57/.config/Typora/typora-user-images/image-20220706130927611.png)
+![image-20220706130927611](resources/images/image-20220706130927611.png)
 
 
 
-![image-20220706131122117](/home/richard/snap/typora/57/.config/Typora/typora-user-images/image-20220706131122117.png)
+![image-20220706131122117](resources/images/image-20220706131122117.png)
 
 ​    如果添加或修改项目中的文件，直接在web版vscode中执行即可。这里也支持文件拖放，即直接将文件从本体拖放到项目的EXPLORER栏（即左侧导航栏）中，或反过来。针对添加或修改的文件，左侧导航栏会显示A或M符号。但这些修改并未真正提交到远程仓库。
 
 ​    要将修改提交到远程仓库，需要切换到source controller栏，填入提交内容说明，再执行提交。
 
-![image-20220706132044885](/home/richard/snap/typora/57/.config/Typora/typora-user-images/image-20220706132044885.png)
+![image-20220706132044885](resources/images/image-20220706132044885.png)
