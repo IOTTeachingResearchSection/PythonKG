@@ -131,6 +131,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTTP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTTP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB基础"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python"/>
@@ -193,6 +209,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#事件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#事件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#二进制整数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#二进制整数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#整数"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#人工智能 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#人工智能">
@@ -205,6 +253,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#标识符"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#八进制整数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#八进制整数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#整数"/>
     </owl:Class>
     
 
@@ -221,6 +278,30 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#函数">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#前端基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#前端基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#十六进制整数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#十六进制整数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#整数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#十进制整数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#十进制整数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#整数"/>
     </owl:Class>
     
 
@@ -257,10 +338,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基础类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基础类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#复数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#复数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数字类型"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#字符串 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#字符串">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本语法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#字符串类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#字符串类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本数据类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#布尔类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#布尔类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本数据类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#布局类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#布局类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython"/>
     </owl:Class>
     
 
@@ -273,6 +394,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#控件类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#控件类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数字类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数字类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本数据类型"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数据库 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数据库">
@@ -281,10 +418,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#整数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#整数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数字类型"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#文件 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#文件">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端API -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端API">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端协议 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端协议">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB"/>
     </owl:Class>
     
 
@@ -313,6 +474,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#浮点数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#浮点数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#数字类型"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#游戏 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#游戏">
@@ -325,6 +494,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#爬虫">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基本应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#状态码 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#状态码">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTTP"/>
     </owl:Class>
     
 
@@ -362,10 +539,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#请求方法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#请求方法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTTP"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#运算符 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#运算符">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Python语言基础"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#静态服务器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#静态服务器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WEB基础"/>
     </owl:Class>
     
 
@@ -381,10 +574,90 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#BoxSizer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#BoxSizer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#布局类"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#CGI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#CGI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端协议"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#CSS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#CSS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#前端基础"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#FCGI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#FCGI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端协议"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#False -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#False">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Flexx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Flexx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#前端基础"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTTP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#HTTP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端协议"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#IDLE -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#IDLE">
         <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#自带开发工具"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#JavaScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#JavaScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#前端基础"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Kivy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Kivy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
     </owl:NamedIndividual>
     
 
@@ -397,10 +670,58 @@
     
 
 
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#None -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#None">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyCharm -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyCharm">
         <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#第三方开发工具"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyGTK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyGTK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyQt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#PyQt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Pywin32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Pywin32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Tkinter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Tkinter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#True -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#True">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
     </owl:NamedIndividual>
     
 
@@ -417,6 +738,350 @@
     <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Visual_Studio_Code -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#Visual_Studio_Code"/>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WSGI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#WSGI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#服务端API"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#and -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#and">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#as -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#as">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#assert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#assert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#break -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#break">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#class -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#continue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#continue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#def -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#def">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#del -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#del">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#elif -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#elif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#else -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#else">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#except -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#except">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#finally -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#finally">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#for -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#for">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#from -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#from">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#global -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#global">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#if -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#if">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#import -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#import">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#in -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#in">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#is -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#is">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#lambda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#lambda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#nonlocal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#nonlocal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#not -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#not">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#or -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#or">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#pass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#pass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#pyui4win -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#pyui4win">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#raise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#raise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#return -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#return">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#try -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#try">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#while -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#while">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#with -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#with">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.App -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.App">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基础类"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.Button -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.Button">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#控件类"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.ENTER_WINDOW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.ENTER_WINDOW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#事件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.EVT_BUTTON -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.EVT_BUTTON">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#事件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.EVT_MOTION -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.EVT_MOTION">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#事件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.EVT_MOUSEWHEEL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.EVT_MOUSEWHEEL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#事件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.Frame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.Frame">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#基础类"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.LEAVE_WINDOW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.LEAVE_WINDOW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#事件"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.StaticText -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.StaticText">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#控件类"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.TextCtrl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wx.TextCtrl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#控件类"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#wxPython">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#GUI框架"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#yield -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#yield">
+        <rdf:type rdf:resource="http://www.semanticweb.org/richard/ontologies/2022/5/python_kg#保留字"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
